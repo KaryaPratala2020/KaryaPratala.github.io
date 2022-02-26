@@ -1,7 +1,9 @@
 .jumbotron {
   padding-top: 8rem;
-  padding-bottom: 4rem;
   background-image: url(img/Artboard\ 10.jpg);
+}
+#about {
+  padding-top: 10px;
 }
 #projects {
   background-color: #f2a154;
@@ -50,4 +52,13 @@
   height: 5px;
   width: 5px;
   border-radius: 50%;
+}
+p.main-text::after {
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  border-bottom: 10px solid #524e44;
+  width: 260px;
+  content: "";
+  border-radius: 25px;
 }
